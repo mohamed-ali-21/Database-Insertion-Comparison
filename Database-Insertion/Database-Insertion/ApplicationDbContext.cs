@@ -8,7 +8,7 @@ namespace Database_Insertion
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL(Constants.ConnectionString);
+            optionsBuilder.UseMySQL(Constants.MySQLConnectionString);
         }
 
         public void TruncateTable()
