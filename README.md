@@ -1,2 +1,2 @@
 # Database-Insertion-Comparison
-Compare methods for adding data to the databas
+Compare methods for adding data to the database
